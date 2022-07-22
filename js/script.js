@@ -159,7 +159,7 @@ nextBtn.addEventListener("click", () => {
       loadGame(count);
     } else {
       saveToLockalStorage("score", mark);
-      window.location.href = "../resultPage.html";
+      window.location.href = "./resultPage.html";
     }
   } else {
     alert("make sure that u checked your answer");

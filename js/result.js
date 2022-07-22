@@ -18,10 +18,10 @@ const leaderButton = document.getElementById("leader");
 const homeButton = document.querySelector(".btn-join");
 
 againButton.addEventListener("click", () => {
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 });
 homeButton.addEventListener("click", () => {
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 });
 leaderButton.addEventListener("click", () => {
   route("leader-board-container");
